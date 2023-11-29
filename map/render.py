@@ -10,3 +10,7 @@ class Render():
                 print(self.map.map[height, width], end=" ")
             print()
         
+        
+map1 = Map(5, 5)
+renderer = Render(map1)
+renderer.render_map()

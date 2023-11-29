@@ -1,4 +1,3 @@
-
 class Map:
     def __init__(self, width, height):
         self.height = height
@@ -10,7 +9,6 @@ class Map:
         for height in range(self.height):
             for width in range(self.width):
                 newMap[height, width] = ""
-                
         return newMap
     
     def set_position(self, x, y, title):
@@ -18,5 +16,4 @@ class Map:
         
     def get_position(self, x, y):
         return self.map[y, x]
-        
     
